@@ -31,18 +31,20 @@ body, html {
 .header-content
 {
 	padding-top: 150px;
-	font-size: 10px;
+	font-size: 5px;
+  position: relative;
+  top: 100;
 }
 
 
 .alt-font
 {
-	font-size: 23pt;
+	font-size: 10pt;
 }
 
 .lead
 {
-	font-size: 25px;
+	font-size: 20px;
   margin-top: 30px;
 }
 
@@ -53,9 +55,9 @@ body, html {
 	left: 10px;
   top: 10px;
   size: 40px;
-  font-size: 20px;
-	width: 250px;
-	height: 60px;
+  font-size: 18px;
+	width: 200px;
+	height: 55px;
 	text-align: center;
   border-radius: 30px;
   color: white;
@@ -75,12 +77,6 @@ body, html {
   background-color: #f4f4f4;
 }
 
-.text-center
-{
-  position: relative;
-  top: 100px;
-}
-
 .showcase
 {
   height: 80%;
@@ -88,7 +84,7 @@ body, html {
 
 .feature
 {
-  margin: 150px 30px 0px 200px;
+  margin: 50px 30px 0px 200px;
 }
 
 h5
@@ -98,7 +94,7 @@ h5
 
 .showcase-size
 {
-  font-size: 23px;
+  font-size: 15px;
 }
 
 .slogan
@@ -136,7 +132,7 @@ li
 
 .team-1-member
 {
-  margin: 150px 30px 0px 200px;
+  margin: 50px 30px 10px 50px;
 }
 
 .group
@@ -178,12 +174,12 @@ li
 .some-text
 {
   position: relative;
-  left: 450px;
+  left: 350px;
 }
 
 .projects-container
 {
-  margin: 200px 100px 100px 100px;
+  margin: 50px 100px 100px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -192,8 +188,8 @@ li
 
 .project-image
 {
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   margin: 10px;
 }
 
@@ -235,7 +231,7 @@ li
 .instagram-img
 {
   position: relative;
-  top: 119px;
+  top: 38px;
 }
 
 .twitter
