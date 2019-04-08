@@ -1,0 +1,246 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.header
+{
+  background-image: url("../img/hero8.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-header
+{
+	position: absolute;
+  top: 45px;
+  left: 85px;
+  right: 70px;
+ }
+
+#img-logo
+{
+	max-width: 7%;
+    height:auto;
+}
+
+.header-content
+{
+	padding-top: 150px;
+	font-size: 10px;
+}
+
+
+.alt-font
+{
+	font-size: 23pt;
+}
+
+.lead
+{
+	font-size: 25px;
+  margin-top: 30px;
+}
+
+.btn
+{
+  margin-top: 50px;
+	position: relative;
+	left: 10px;
+  top: 10px;
+  size: 40px;
+  font-size: 20px;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+  border-radius: 30px;
+  color: white;
+}
+
+.btn-white
+{
+	border-style: solid;
+  border-width: medium;
+  border-color: white;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.intro
+{
+  height: 50%;
+  background-color: #f4f4f4;
+}
+
+.text-center
+{
+  position: relative;
+  top: 100px;
+}
+
+.showcase
+{
+  height: 80%;
+}
+
+.feature
+{
+  margin: 150px 30px 0px 200px;
+}
+
+h5
+{
+  margin-bottom: 30px;
+}
+
+.showcase-size
+{
+  font-size: 23px;
+}
+
+.slogan
+{
+  margin-top: 200px;
+  background-image: url("../img/hero12.jpg");
+  height: 70%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.slogan-margin
+{
+  position: relative;
+  top: 200px;
+}
+
+.about-team
+{
+  background-color: #f5f5f5;
+  height: 90%;
+}
+
+.about-position
+{
+  position: relative;
+  left: 300px;
+}
+
+li
+{
+  display: inline;
+}
+
+.team-1-member
+{
+  margin: 150px 30px 0px 200px;
+}
+
+.group
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.video
+{
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  margin: 150px 50px 50px 100px;
+}
+
+.btn-video
+{
+  color: #3498db;
+  font-weight: bold;
+  border-color: #3498db;
+  background-color: white;
+}
+
+.btn-text-only
+{
+  color: #3498db;
+  font-weight: bold;
+  border-color: white;
+  background-color: white;  
+}
+
+.some-projects
+{
+  background-color: #f4f4f4;
+  height: 170%;
+}
+
+.some-text
+{
+  position: relative;
+  left: 450px;
+}
+
+.projects-container
+{
+  margin: 200px 100px 100px 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.project-image
+{
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+}
+
+.hover-state
+{
+  display: none;
+}
+
+.work-with
+{
+  height: 70%;
+}
+
+.tech
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech-img
+{
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+.review
+{
+  height: 50%;
+  background-color: #dd4444;
+}
+
+.instagram
+{
+  height: 50%;
+}
+
+.instagram-img
+{
+  position: relative;
+  top: 119px;
+}
+
+.twitter
+{
+  height: 40%;
+  background: #f4f4f4;
+  font-size: 28px;
+}
