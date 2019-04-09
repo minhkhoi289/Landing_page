@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -51,6 +52,7 @@
 									<h5>Distinct Visual Style</h5>
 									<p class="showcase-size">
 										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+
 									</p>
 								</div>
 							</div>
@@ -266,7 +268,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>MS10</strong> UX</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -278,7 +280,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Medium</strong> Blog Platform</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -290,7 +292,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Identity</strong> Mockup</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -303,7 +305,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Aurora</strong> App Icons</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -315,7 +317,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Sketchbook</strong> Logo Mockup</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div><!--end of individual project-->
@@ -327,7 +329,7 @@
 								<div class="hover-state">
 									<div class="align-vertical">
 										<h3 class="text-white"><strong>Muzik</strong> Home Screen</h3>
-										<a href="project-single.html" class="btn btn-primary btn-white">See Project</a>
+										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
 							</div>
@@ -343,9 +345,25 @@
 		</div>
 		
 		<div class="review">
-			<div class="text-center">
+			<div class="text-center mySlides fade">
 				<p class="text-white lead">Pivot is hands down the most flexible and enjoyable HTML template I've ever used. I was a startup framework die-hard but now my eyes have been opened to the sheer power of Variant page builder, I won't be going back!</p>
 										<span class="author text-white">Louise Duke - Mother Goose</span>
+			</div>
+
+			<div class="text-center mySlides fade">
+				<p class="text-white lead">I was getting fed up with the hassle of setting up bloated WordPress themes. Luckily I've now found Pivot with Variant. Building pages in real-time without a CMS gives me all the power and flexibility I could want.</p>
+										<span class="author text-white">Elizabeth Atkinson - Shapewear Australia</span>
+			</div>
+
+			<div class="text-center mySlides fade">
+				<p class="text-white lead">The plethora of content blocks available in Pivot has made it my go-to template of choice. I've already used it for a number of clients - all of which have been thrilled with the outcome. Well done Medium Rare!</p>
+										<span class="author text-white">Toby Whittaker - Design Dojo</span>
+			</div>
+
+			<div class="allDot">
+  				<span class="dot" onclick="currentSlide(1)"></span> 
+  				<span class="dot" onclick="currentSlide(2)"></span> 
+  				<span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
 		</div>
 
@@ -362,8 +380,31 @@
 			</div>
 		</div>
 
-		<div class="twitter">
-			<p class="text-center">Follow us <a href="#" class="@mrareweb">@mrareweb</a> for more awesome updates</p>
+		<div class="twitter text-center">
+			<a class="twitter-text fa fa-twitter"></a>
+			<p class="text-center twitter-text">Follow us <a href="#" class="@mrareweb">@mrareweb</a> for more awesome updates</p>
+		</div>
+
+		<div class="social">
+			<ul class="ul-social">
+				<li class="social-twitter">
+					<a href="#"><img src="img\twitter.png" class="a-pos"></a>
+				</li>
+				<li class="social-facebook">
+					<a href="#"><img src="img\facebook.png" class="a-pos"></a>
+				</li>
+				<li class="social-dribbble">
+					<a href="#"><img src="img\dribbble.png" class="a-pos"></a>
+				</li>
+				<li class="social-tumblr">
+					<a href="#"></a><img src="img\tumblr.png" class="a-pos"></a>
+				</li>
+			</ul>
+
+			<div class="social-address">
+				<p class="text-center social-text">Get in touch</p><br>
+				<a href="#" class="social-link">hello@mrare.co</p>
+			</div>
 		</div>
 	</body>			
 </body>
