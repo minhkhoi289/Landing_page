@@ -2,28 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	
+	<script src="js\function.js" language="javascript">
 
-	<script src="js\function.js" language="javascript"></script>
+	</script>
 	<link rel="stylesheet" type="text/css" href="css\layout.css">
 </head>
 	<body>
+			<div id="mySidenav" class="sidenav">
+			<img src="img/logo-light.png" style="padding-left: 30px; padding-bottom: 30px; width: 90px; height: 53px;">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="#">HOME</a>
+  			<a href="#">SERVICES</a>
+  			<a href="#">ABOUT</a>
+  			<a href="#">PORTFOLIO</a>
+  			<a href="#">About</a>
+  			<a href="#">TESTIMONIALS</a>
+  			<a href="#">CONTACT</a>	
+			</div>
+
+		
 		<div class="header">
 			<div class="sub-header">
-			<img src="img/logo-light.png" id="img-logo">
+			<img src="img/logo-light.png" id="img-logo"/>
+  			<p style="font-size:30px;cursor:pointer" onclick="openNav()" class="show-navigation" >&#9776;</p>
 			</div>
+			
+			<div id="main">
+				<h2>Sidenav Push Example</h2>
+ 				<p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+			</div>	
 
 			<div class="header-content text-center">
 				<span class="text-white alt-font">Say Hello To Pivot</span>
 				<h1 class="text-white">The biggest, baddest new template on the block <br>has arrived, build yours now.</h1>
 				<p class="lead text-white">Tons of elements, Consistent style, Variant builder included.</p>
-				<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
+				<a href="#" class="btn btn-primary btn-white">Customize Pivot</a>
 				<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
 			</div>
 		</div>
@@ -33,11 +58,11 @@
 				<span class="sub alt-font">full service digital agency</span>
 							<h1><strong>Digital innovators, at your service</strong></h1>
 							<p class="lead">
-								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum<br> deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non<br> provident, similique sunt in culpa qui officia deserunt mollitia animi, id est<br> laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum<br> deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non<br> provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et <br>harum quidem rerum facilis est et expedita distinctio.
 							</p>
 			</div>
 		</div>
-
+		</div>
 		<div class="showcase">
 			<div class="col-md-12 text-center">
 				<h1>Showcase services in a<br>spacious &amp; clean manner</h1>
@@ -46,7 +71,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-genius"></i>
+									<i class="fab fa-react fa-4x"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Distinct Visual Style</h5>
@@ -61,7 +86,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-linegraph"></i>
+									<i class="fas fa-seedling fa-4x"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Multiple Demos</h5>
@@ -75,7 +100,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
+									<i class="fas fa-cog fa-4x"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Flexible Page Builder</h5>
@@ -89,7 +114,7 @@
 						<div class="col-sm-6">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
-									<i class="icon icon-desktop"></i>
+									<i class="fas fa-desktop fa-4x"></i>
 								</div>
 								<div class="pull-right">
 									<h5>Fully Responsive</h5>
@@ -119,7 +144,7 @@
 			</div>
 			<div class="group">
 			<div class="col-sm-4 col-md-3 team-group">
-				<div class="team-1-member">
+				<div class="team-1-member text-center">
 					<img alt="Team Member" class="background-image" src="img/team-small-1.png ">
 					<h5>Chip Mayer</h5>
 					<span>Founder &amp; CEO</span><br>
@@ -146,7 +171,7 @@
 			</div>
 						
 						<div class="col-sm-4 col-md-3">
-							<div class="team-1-member">
+							<div class="team-1-member text-center">
 								<img alt="Team Member" class="background-image" src="img/team-small-2.png ">
 								<h5>Carl Kennedy</h5>
 								<span>Founder &amp; COO</span><br>
@@ -175,7 +200,7 @@
 						
 						
 						<div class="col-sm-4 col-md-3">
-							<div class="team-1-member">
+							<div class="team-1-member text-center">
 								<img alt="Team Member" class="background-image" src="img/team-small-4.png ">
 								<h5>Claire Taurus</h5>
 								<span>Product Designer</span><br>
@@ -202,7 +227,7 @@
 						</div>
 						
 						<div class="col-sm-4 col-md-3">
-							<div class="team-1-member">
+							<div class="team-1-member text-center">
 								<img alt="Team Member" class="background-image" src="img/team-small-5.png ">
 								<h5>Amy Banks</h5>
 								<span>Developer</span><br>
@@ -243,9 +268,7 @@
 			<div class="col-md-6 col-sm-12">
 				<div class="inline-video-wrapper">
 					<video controls=""  width="100%" height="100%">
-						<source src="video/video.webm" type="video/webm">
-						<source src="video/video.mp4" type="video/mp4">
-						<source src="video/video.ogv" type="video/ogg">
+						<source src="https://www.youtube.com/watch?v=mk48xRzuNvA" type="video/webm">
 					</video>
 				</div>
 			</div>
@@ -267,7 +290,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>MS10</strong> UX</h3>
+										<h3 class="text-white project-name"><strong>MS10</strong> UX</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -279,7 +302,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Medium</strong> Blog Platform</h3>
+										<h3 class="text-white project-name"><strong>Medium</strong> Blog Platform</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -291,7 +314,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Identity</strong> Mockup</h3>
+										<h3 class="text-white project-name"><strong>Identity</strong> Mockup</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -304,7 +327,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Aurora</strong> App Icons</h3>
+										<h3 class="text-white project-name"><strong>Aurora</strong> App Icons</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -316,7 +339,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Sketchbook</strong> Logo Mockup</h3>
+										<h3 class="text-white project-name"><strong>Sketchbook</strong> Logo Mockup</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -328,7 +351,7 @@
 								</div>
 								<div class="hover-state">
 									<div class="align-vertical">
-										<h3 class="text-white"><strong>Muzik</strong> Home Screen</h3>
+										<h3 class="text-white project-name"><strong>Muzik</strong> Home Screen</h3>
 										<a href="#" class="btn btn-primary btn-white">See Project</a>
 									</div>
 								</div>
@@ -337,26 +360,46 @@
 		</div>
 
 		<div class="work-with">
-			<div class="row">
 				<div class="col-sm-12 text-center">
 					<p class="lead">Some awesome companies we've had the pleasure to work with</p>
 				</div>
-			</div>
+
+				<table class="tech-table">
+					<tr>
+						<td class="right-bottom picture-work"><img src="img\client1.png" alt="" class="tech-img"></td>
+						<td class="right-bottom picture-work"><img src="img\client2.png" alt="" class="tech-img"></td>
+						<td class="right-bottom picture-work"><img src="img\client3.png" alt="" class="tech-img"></td>
+						<td class="bottom picture-work"><img src="img\client4.png" alt="" class="tech-img"></td>
+					</tr>
+
+					<tr>
+						<td class="right picture-work"><img src="img\client5.png" alt="" class="tech-img"></td>
+						<td class="right picture-work"><img src="img\client6.png" alt="" class="tech-img"></td>
+						<td class="right picture-work"><img src="img\client7.png" alt="" class="tech-img"></td>
+						<td class="picture-work"><img src="img\client8.png" alt="" class="tech-img"></td>
+					</tr>
+				</table>
 		</div>
 		
 		<div class="review">
 			<div class="text-center mySlides fade">
-				<p class="text-white lead">Pivot is hands down the most flexible and enjoyable HTML template I've ever used. I was a startup framework die-hard but now my eyes have been opened to the sheer power of Variant page builder, I won't be going back!</p>
+				<p class="text-white lead">Pivot is hands down the most flexible and enjoyable HTML template I've ever used. I was
+					<br> a startup framework die-hard but now my eyes have been opened to the sheer power of
+					<br> Variant page builder, I won't be going back!</p>
 										<span class="author text-white">Louise Duke - Mother Goose</span>
 			</div>
 
 			<div class="text-center mySlides fade">
-				<p class="text-white lead">I was getting fed up with the hassle of setting up bloated WordPress themes. Luckily I've now found Pivot with Variant. Building pages in real-time without a CMS gives me all the power and flexibility I could want.</p>
+				<p class="text-white lead">I was getting fed up with the hassle of setting up bloated WordPress themes. Luckily I've
+					<br> now found Pivot with Variant. Building pages in real-time without a CMS gives me all the 
+					<br>power and flexibility I could want.</p>
 										<span class="author text-white">Elizabeth Atkinson - Shapewear Australia</span>
 			</div>
 
 			<div class="text-center mySlides fade">
-				<p class="text-white lead">The plethora of content blocks available in Pivot has made it my go-to template of choice. I've already used it for a number of clients - all of which have been thrilled with the outcome. Well done Medium Rare!</p>
+				<p class="text-white lead">The plethora of content blocks available in Pivot has made it my go-to template of choice.<br>
+					I've already used it for a number of clients - all of which have been thrilled with the
+					<br> outcome. Well done Medium Rare!</p>
 										<span class="author text-white">Toby Whittaker - Design Dojo</span>
 			</div>
 
@@ -372,39 +415,53 @@
 				<span class="alt-font">instagram</span>
 			</div>
 			<div class="instagram-img">
-			<img src="https://scontent.cdninstagram.com/vp/7757fd91b5d5aee7750d249123fcaf02/5D3335ED/t51.2885-15/e35/s320x320/13398476_758284670980565_1964434862_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="250px">
+			<img src="https://scontent.cdninstagram.com/vp/7757fd91b5d5aee7750d249123fcaf02/5D3335ED/t51.2885-15/e35/s320x320/13398476_758284670980565_1964434862_n.jpg?_nc_ht=scontent.cdninstagram.com" width="220px" height="220px">
 
-			<img src="https://scontent.cdninstagram.com/vp/e192cce48881abd5ffffbe95ff9a6ec0/5D324E30/t51.2885-15/e15/s320x320/10598518_868054983219549_1823485118_n.jpg?_nc_ht=scontent.cdninstagram.com"  width="300px" height="250px">
+			<img src="https://scontent.cdninstagram.com/vp/e192cce48881abd5ffffbe95ff9a6ec0/5D324E30/t51.2885-15/e15/s320x320/10598518_868054983219549_1823485118_n.jpg?_nc_ht=scontent.cdninstagram.com"  width="220px" height="220px">
 
-			<img src="https://scontent.cdninstagram.com/vp/58196ecd0855684a540ca1156cb62365/5D4A1A0B/t51.2885-15/e15/s320x320/10632214_722819361118920_1555795075_n.jpg?_nc_ht=scontent.cdninstagram.com" width="300px" height="250px">
+			<img src="https://scontent.cdninstagram.com/vp/58196ecd0855684a540ca1156cb62365/5D4A1A0B/t51.2885-15/e15/s320x320/10632214_722819361118920_1555795075_n.jpg?_nc_ht=scontent.cdninstagram.com" width="220px" height="220px">
 			</div>
 		</div>
 
 		<div class="twitter text-center">
-			<a class="twitter-text fa fa-twitter"></a>
+			<a class="twitter-text fab fa-twitter follow"></a>
 			<p class="text-center twitter-text">Follow us <a href="#" class="@mrareweb">@mrareweb</a> for more awesome updates</p>
-		</div>
+		</div>	
 
 		<div class="social">
 			<ul class="ul-social">
 				<li class="social-twitter">
 					<a href="#"><img src="img\twitter.png" class="a-pos"></a>
+					<p class="p-none">FOLLOW ON TWITTER</p>
 				</li>
 				<li class="social-facebook">
 					<a href="#"><img src="img\facebook.png" class="a-pos"></a>
+					<p class="p-none">FRINED ON FACEBOOK</p>
 				</li>
 				<li class="social-dribbble">
 					<a href="#"><img src="img\dribbble.png" class="a-pos"></a>
+					<p class="p-none">SHOTS ON DRIBBBLE</p>
 				</li>
 				<li class="social-tumblr">
-					<a href="#"></a><img src="img\tumblr.png" class="a-pos"></a>
+					<a href="#"><img src="img\tumblr.png" class="a-pos"></a>
+					<p class="p-none">THOUGHTS ON TUMBLR</p>
 				</li>
 			</ul>
 
 			<div class="social-address">
-				<p class="text-center social-text">Get in touch</p><br>
-				<a href="#" class="social-link">hello@mrare.co</p>
+					<p class="text-center social-text">Get in touch</p><br>
+					<a href="#" class="social-link">hello@mrare.co</a>
+			
 			</div>
+			<ul class="ul-list">
+				<li><a href="#" class="fab fa-twitter icon-size"></a></li>
+				<li><a href="#" class="fab fa-facebook-f icon-size"></a></li>
+				<li><a href="#" class="fab fa-instagram icon-size"></a></li>
+				<li><a href="#" class="fab fa-dribbble icon-size"></a></li>
+				<li><a href="#" class="fab fa-tumblr icon-size"></a></li>
+				<li><a href="#" class="fab fa-pinterest-p icon-size"></a></li>
+			</ul>
+			
 		</div>
 	</body>			
 </body>
