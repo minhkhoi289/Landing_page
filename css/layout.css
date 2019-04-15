@@ -160,8 +160,6 @@ h1, h2, h3, h4, h5, h5, h6 {
 {
   background-color: #f4f4f4;
   padding-top: 64px;
-  position: relative;
-  width: 200%;
 }
 
 .intro .lead
@@ -344,7 +342,6 @@ h5 {
 {
   width: 400px;
   height: 300px;
-  margin-right: 20px;
   padding-bottom: 10px;
 }
 
@@ -358,7 +355,7 @@ h5 {
   position: absolute;
   bottom: 5px;
   left: 15px;
-  right: 0;
+  right: 0px;
   background-color: rgba(44, 62, 80, 0.9);
   overflow: hidden;
   width: 96.5%;
@@ -554,13 +551,6 @@ h5 {
   background-color: #3B5998;
 }
 
-.social-all
-{
-  height: 104px;
-  width: 343px;
-  text-align: center;
-}
-
 .social-facebook
 {
   background-color: #3B5998;
@@ -619,14 +609,10 @@ h5 {
   display: none;
 }
 
-.ul-list
+.social-all
 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding-left: 400px;
-  padding-top:50px;
+  height: 100px;
+  text-align: center;
 }
 
 .ul-list li
